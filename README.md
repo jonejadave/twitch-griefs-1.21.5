@@ -22,7 +22,7 @@ These are the commands your chat can use:
 | `!zombie`   | Spawns a Zombie          |
 | `!skeleton` | Spawns a Skeleton        |
 | `!spider`   | Spawns a Spider          |
-| `!jockey`   | Spawns a Skeleton Jockey |
+| `!jockey`   | Spawns a Chicken Jockey  |
 
 All mobs spawn close to the player. Chaos guaranteed.
 
