@@ -32,13 +32,15 @@ public class twitchGriefMain implements ModInitializer {
 
 	private final Map<String, Instant> cooldowns = new HashMap<>();
 	private final Map<String, Text> userColors = new HashMap<>();
-	private final Set<String> cooldownExemptUsers = Set.of("[your-minecraft-username]");
+	private final Set<String> cooldownExemptUsers = Set.of(twitchGriefConfigs.minecraftUsername);
 
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
 
-		OAuth2Credential credential = new OAuth2Credential("twitch", "oauth:[twitch_key]");
+		twitchGriefConfigs.loadConfig();
+
+		OAuth2Credential credential = new OAuth2Credential("twitch", twitchGriefConfigs.twitchOAuthKey);
 
 		twitchClient = TwitchClientBuilder.builder()
 				.withEnableChat(true)
