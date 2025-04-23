@@ -1,4 +1,4 @@
-package net.soren.customtwitch;
+package net.soren.custom;
 
 import com.github.philippheuer.credentialmanager.domain.OAuth2Credential;
 import com.github.twitch4j.TwitchClient;
@@ -14,10 +14,9 @@ import net.minecraft.item.Items;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.util.math.Vec3d;
-import net.soren.customtwitch.sound.ModSounds;
+import net.soren.custom.sound.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,7 +24,7 @@ import java.time.Instant;
 import java.util.*;
 import java.util.function.Function;
 
-public class TemplateMod implements ModInitializer {
+public class twitchGriefMain implements ModInitializer {
 	public static final String MOD_ID = "twitch-griefs";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	private static final int COOLDOWN_SECONDS = 60;
