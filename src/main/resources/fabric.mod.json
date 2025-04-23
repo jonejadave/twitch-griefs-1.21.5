@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "twitch-griefs",
+	"version": "${version}",
+	"name": "Twitch Griefs",
+	"description": "I love twitch griefs!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/twitch-griefs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.soren.customtwitch.TemplateMod"
+		],
+		"fabric-datagen": [
+			"net.soren.customtwitch.TemplateModDataGenerator"
+		]
+	},
+	"mixins": [
+		"template-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
