@@ -26,7 +26,6 @@ These are the commands your chat can use:
 
 All mobs spawn close to the player. Chaos guaranteed.
 
-
 ## How It Works
 
 - Uses [Twitch4J](https://github.com/twitch4j/twitch4j) to connect to Twitch
@@ -34,14 +33,6 @@ All mobs spawn close to the player. Chaos guaranteed.
 - Spawns mobs based on commands
 
 That’s it for now. No fancy features yet.
-
-
-## How To Use It
-
-1. Install the **Minecraft** version 1.21.5 with **Fabric** 
-2. Drop the `.jar` file into your `mods/` folder.
-3. Run the game, set up your Twitch credentials.
-4. Start streaming. Let chat take over.
 
 
 ## Roadmap / Stuff Coming Soon
