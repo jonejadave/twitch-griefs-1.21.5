@@ -38,7 +38,7 @@ That’s it for now. No fancy features yet.
 
 ## How To Use It
 
-1. Install the right version of **Minecraft** with **Fabric** or **Forge**.
+1. Install the **Minecraft** version 1.21.5 with **Fabric** 
 2. Drop the `.jar` file into your `mods/` folder.
 3. Run the game, set up your Twitch credentials.
 4. Start streaming. Let chat take over.
