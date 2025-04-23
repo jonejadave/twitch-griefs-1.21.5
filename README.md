@@ -4,7 +4,6 @@
 
 Still super early in development, but it works.
 
----
 
 ## What It Does
 
@@ -12,7 +11,6 @@ Viewers in your Twitch chat can type commands to spawn hostile mobs near you. Th
 
 Simple. Fun. Annoying.
 
----
 
 ## Chat Commands
 
@@ -28,7 +26,6 @@ These are the commands your chat can use:
 
 All mobs spawn close to the player. Chaos guaranteed.
 
----
 
 ## How It Works
 
@@ -38,7 +35,6 @@ All mobs spawn close to the player. Chaos guaranteed.
 
 That’s it for now. No fancy features yet.
 
----
 
 ## How To Use It
 
@@ -47,13 +43,11 @@ That’s it for now. No fancy features yet.
 3. Run the game, set up your Twitch credentials.
 4. Start streaming. Let chat take over.
 
----
 
 ## Roadmap / Stuff Coming Soon
 
 - More mob types (maybe Ghasts, Blazes, etc
 
----
   
 ## Contact
 
