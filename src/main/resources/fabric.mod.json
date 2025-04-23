@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.soren.customtwitch.twitchGriefMain"
+			"net.soren.custom.twitchGriefMain"
 		],
 		"fabric-datagen": [
-			"net.soren.customtwitch.twitchGriefDataGenerator"
+			"net.soren.custom.twitchGriefDataGenerator"
 		]
 	},
 	"mixins": [

@@ -39,6 +39,4 @@ replay_*.log
 *.hprof
 *.jfr
 
-# local dev config
-dev/
 

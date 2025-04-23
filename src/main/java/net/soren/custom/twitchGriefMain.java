@@ -17,6 +17,7 @@ import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.util.math.Vec3d;
 import net.soren.custom.sound.ModSounds;
+import net.soren.custom.config.ModConfigs;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -32,15 +33,17 @@ public class twitchGriefMain implements ModInitializer {
 
 	private final Map<String, Instant> cooldowns = new HashMap<>();
 	private final Map<String, Text> userColors = new HashMap<>();
-	private final Set<String> cooldownExemptUsers = Set.of(twitchGriefConfigs.minecraftUsername);
+	private Set<String> cooldownExemptUsers = Set.of("admin");
 
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
 
-		twitchGriefConfigs.loadConfig();
+		ModConfigs.registerConfigs();
 
-		OAuth2Credential credential = new OAuth2Credential("twitch", twitchGriefConfigs.twitchOAuthKey);
+		cooldownExemptUsers = Set.of(ModConfigs.MINECRAFT_USERNAME);
+
+		OAuth2Credential credential = new OAuth2Credential("twitch", "oauth:" + ModConfigs.TWITCH_OAUTH_KEY);
 
 		twitchClient = TwitchClientBuilder.builder()
 				.withEnableChat(true)
