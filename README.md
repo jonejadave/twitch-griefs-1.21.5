@@ -27,11 +27,12 @@ These are the commands your chat can use:
 All mobs spawn close to the player. Chaos guaranteed.
 
 
-## Installation 
+## Installation for Fabric
 
+- Minecraft Java v1.21.5 w/ Fabric required
 - Download the latest [release](https://github.com/jonejadave/twitch-griefs-1.21.5/releases/latest/download/twitch-griefs-1.0.0.zip)
 - drag both the config and mods folders into the .minecraft directory
-- paste your TwitchOAuth key in the config file you can generate a token [here](https://twitchtokengenerator.com/)_
+- paste your TwitchOAuth key in the config file. If you dont have a token you can generate one [here](https://twitchtokengenerator.com/)
 
 
 ## How It Works
