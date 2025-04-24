@@ -26,6 +26,14 @@ These are the commands your chat can use:
 
 All mobs spawn close to the player. Chaos guaranteed.
 
+
+## Installation 
+
+- Download the latest [release](https://github.com/jonejadave/twitch-griefs-1.21.5/releases/latest/download/twitch-griefs-1.0.0.zip)
+- drag both the config and mods folders into the .minecraft directory
+- paste your TwitchOAuth key in the config file you can generate a token [here](https://twitchtokengenerator.com/)_
+
+
 ## How It Works
 
 - Uses [Twitch4J](https://github.com/twitch4j/twitch4j) to connect to Twitch
@@ -34,12 +42,6 @@ All mobs spawn close to the player. Chaos guaranteed.
 
 That’s it for now. No fancy features yet.
 
-## Installation 
-
-- Download the latest [release](https://github.com/jonejadave/twitch-griefs-1.21.5/releases/latest/download/twitch-griefs-1.0.0.zip)
-- drag both the config and mods folders into the .minecraft directory
-- paste your TwitchOAuth key in the config file you can generate a token [here](https://twitchtokengenerator.com/)_
-- 
 
 ## Roadmap / Stuff Coming Soon
 
