@@ -34,12 +34,17 @@ All mobs spawn close to the player. Chaos guaranteed.
 
 That’s it for now. No fancy features yet.
 
+## Installation 
+
+- Download the latest release [here](https://github.com/jonejadave/twitch-griefs-1.21.5/releases/latest/download/twitch-griefs-1.0.0.zip)
+- drag both the config and mods folders into the .minecraft directory
+- paste your TwitchOAuth key in the config file you can generate a token [here](https://twitchtokengenerator.com/)_
+- 
 
 ## Roadmap / Stuff Coming Soon
 
 - More mob types (maybe Ghasts, Blazes, etc
 
-  
 ## Contact
 
 discord: f5soren 
